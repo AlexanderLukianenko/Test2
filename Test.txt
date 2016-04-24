@@ -3,11 +3,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1251"> 
 </HEAD> 
 <BODY> 
-
-
-<table width="450" border="1" align="center";> 
+<table width="250" border="1" align="center";> 
 <tr><th>Градусы Фаренгейта</th><th>Градусы Цельсия</th></tr> 
 <script> 
+<top>
 
 for (var i = -250, j = +1; i < 301 ; i = i+10, j += 1)
 { 
@@ -19,6 +18,7 @@ for (var i = -250, j = +1; i < 301 ; i = i+10, j += 1)
 		document.write("<tr > <td bgcolor=\"red\">"+i+"</td>"); document.write("<td bgcolor=\"red\">"+c+"</td></tr>"); 
 	} 
 } 
+</top>
 </script> 
 </table> 
 </p><P> 
